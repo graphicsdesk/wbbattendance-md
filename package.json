@@ -19,6 +19,7 @@
     "sass": "^1.26.5"
   },
   "dependencies": {
+    "d3-selection": "^3.0.0",
     "intersection-observer": "^0.10.0",
     "scrollama": "^3.2.0",
     "text-balancer": "^1.0.5"

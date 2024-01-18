@@ -10,17 +10,39 @@
         "body": [
           {
             "type": "text",
-            "value": "Leadin. Something to draw the reader in. Graphics is the only visuals and words desk at the Spectator."
+            "value": "Jonathan Schiller, CC ’69, is one of the few individuals that sit courtside during women’s basketball games. A former co-chair of the University board of trustees, he was a member of the 1967-68 Ivy League men’s basketball championship team—the last time a Columbia basketball program would win the Ivy League title for 55 years."
           },
           {
             "type": "text",
-            "value": "Nutgraf. What is the meat of the story? Why does this matter?"
+            "value": "Now, the Levien Gymnasium court is dedicated in his name—the same court where Schiller was present for last year’s historic game in which the women’s basketball team finally <a href=\"https://www.columbiaspectator.com/sports/2023/03/04/womens-basketball-makes-history-claiming-first-ivy-league-title-after-win-against-cornell/\">secured</a> the Ivy League title. Schiller is one of the few people who can say they were present for both Columbia basketball titles, men’s and women’s. He described last year’s title-clenching game as “exhilarating.”"
           },
           {
-            "type": "graphic",
-            "value": {
-              "asset": "Attendance_plot.html"
-            }
+            "type": "text",
+            "value": "“My feet didn’t touch the ground,” Schiller said. “For Columbia to win a championship in basketball after 50 years of trying—it’s a great thing, and it excited everyone.”"
+          },
+          {
+            "type": "text",
+            "value": "Schiller was one of many among a sold-out crowd that flocked to Levien on March 4, 2023 to witness the women’s basketball team make history. The Columbia community banded together around its Lions as they faced off against Cornell for the chance at winning their first Ivy League title. The atmosphere was electric as the Light Blue finally came out on top after trailing for much of the game."
+          },
+          {
+            "type": "text",
+            "value": "“I had never seen any place on this campus so, you know, excited and unified,” Columbia professor and sports historian Frank Guridy said of the Columbia-Cornell game."
+          },
+          {
+            "type": "text",
+            "value": "As the Lions went on their winning run in February and March of last year, the excitement around campus was palpable as the possibility of clinching the Ivy League title seemed increasingly likely."
+          },
+          {
+            "type": "text",
+            "value": "“It was one of the most unique experiences and … one of the few times on our campus that I felt like I belonged to a community here,” Guridy said."
+          },
+          {
+            "type": "text",
+            "value": "The success of this team has generated high expectations for its 2024 campaign, and this year the Lions have the support of a campus that is more invested in them than ever before."
+          },
+          {
+            "type": "text",
+            "value": "Since the hiring of head coach Megan Griffith, CC ’07, in 2016, the team’s success—and its audience numbers—has soared. The crowd size at games has surged, particularly after the 2021-22 season, when women’s basketball made its deepest postseason run in program history. The season after, the Lions continued to improve, not only breaking their own postseason record but making history for the Ivy League as well. In that season, average attendance numbers broke 1,000 for the first time since Columbia Athletics began tracking attendance data."
           },
           {
             "type": "graphic",
@@ -30,19 +52,115 @@
           },
           {
             "type": "text",
-            "value": "<i>Charlotte Li is a Graphics deputy editor. She can be contacted at </i><a href=\"mailto:charlotte.li@columbiaspectator.com\"><i>charlotte.li@columbiaspectator.com</i></a><i>.</i>"
+            "value": "Attendance data reveals that while certain promotional games, like Pride Night, do correlate with surges in attendance, the best-attended women’s basketball games in the last two seasons have often been the history-making matchups. Columbia’s conference title game against Cornell last year saw a crowd of 2,602, while its first-ever appearance against nationally ranked Duke University in November drew in 2,027. The highest-attended game in program history took place last year when Columbia faced off against Princeton, a game which had been much anticipated due to the hype behind both teams. These attendance records are proof of the interest behind a team with winning momentum—fans show up to be a part of a moment bigger than themselves."
+          },
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "Attendance_plot.html"
+            }
           },
           {
             "type": "text",
-            "value": "<i>Jun Yi Zhang is a Graphics reporter. She can be contacted at </i><a href=\"mailto:junyi.zhang@columbiaspectator.com\"><i>junyi.zhang@columbiaspectator.com</i></a><i>.</i>"
+            "value": "“I think [sports] nonetheless can play a really interesting and important role in facilitating some notion of community here,” Guridy said. “It can be one of those spaces where people from different backgrounds come together because they like to see athletes perform.”"
+          },
+          {
+            "type": "text",
+            "value": "To him, even when the crowds are small, they are energized. Guridy attributes the growing crowds not only to the success of the team, but to its compelling players as well. Schiller expressed a similar sentiment."
+          },
+          {
+            "type": "text",
+            "value": "“The women’s team is outstanding, and they’re well coached,” Schiller said. “They’re playing at the highest level in American women’s basketball.”"
+          },
+          {
+            "type": "text",
+            "value": "Last season, Columbia was ultimately the first team left out of the NCAA Tournament and instead competed in the Women’s National Invitational Tournament. Nonetheless, the Lions became the first Ivy League team in history to make it to the tournament’s championship game. Although they lost to the University of Kansas’ Jayhawks, the Lions’ 2023 portfolio showed that Ivy League teams can compete on a national level and marked a historic moment for Columbia’s women’s basketball and the entire conference."
+          },
+          {
+            "type": "text",
+            "value": "The 2023-24 season is already shaping up to be another one for the books. Senior guard and program superstar Abbey Hsu is currently on pace to break Columbia’s all-time scoring record for men’s or women’s basketball. As of Saturday, she became No. 10 on the Ivy League’s all-time women’s scoring list. The Lions have also had a strong start to Ivy League play with three consecutive conference wins, 79-66 against Penn, 82-53 against Cornell, and 88-52 against Yale."
+          },
+          {
+            "type": "text",
+            "value": "Columbia’s success over the past year has drawn attention from one of the top women’s professional basketball leagues in the world. In December, WNBA commissioner Cathy Engelbert was sitting courtside when the Light Blue defeated No. 48 Villanova in a nail-biter."
+          },
+          {
+            "type": "text",
+            "value": "In the midst of this increased attention, the Lions have solidified their goals for the 2023-24 season, aiming to go beyond what they accomplished last year."
+          },
+          {
+            "type": "text",
+            "value": "“We really want to win that Ivy League Tournament championship and go to the NCAA Tournament,” Griffith said. “That’s a big, big step for this program and something that I think everybody has their eyes on.”"
+          },
+          {
+            "type": "text",
+            "value": "Rising audience numbers have also been coupled with a consistent, dedicated fanbase for the team. According to Mike Miller, the associate athletics director for marketing, ticketing, and fan engagement, season women’s basketball courtside tickets sold out for the first time this year after their conference title win last year. While the success of the team has likely driven students and community members alike to attend games more often, there has also been a concerted effort from the athletic department to strategically drive up attendance."
+          },
+          {
+            "type": "text",
+            "value": "Miller said that he and his team want to ensure that first-time attendees not only have a good time, but are also well-informed about future games. Part of building a good fan experience is having larger crowds."
+          },
+          {
+            "type": "text",
+            "value": "“Once people start walking into the gym and seeing it’s full, then that’s just created some more demand on some people buying some season tickets a little bit later,” Miller said. “Anybody who works in marketing and ticketing is naive to say that, ‘Oh, we’re doing all this and this is why people are coming.’ … Winning helps, always.”"
+          },
+          {
+            "type": "text",
+            "value": "In response to the team’s success, his department pushed season ticket sales at the end of last season. The decision, Miller said, is data-driven. The ticketing department is able to track and identify individuals who attend multiple games, including what kind of ticket they purchase. From there, the department is able to reach out and offer a range of ticket packages, from courtside season tickets to discounted packages for local groups. While tickets may be free for students, the athletic department tracks their attendance as well. Students who scan into games automatically receive emails regarding upcoming events for all of Columbia Athletics."
+          },
+          {
+            "type": "text",
+            "value": "As the Lions aim to recreate and surpass the success of last season, Columbia Athletics’ interest in maintaining high attendance at games has also presented an opportunity to engage with the local community. Basketball at Columbia, both men’s and women’s, has attracted supporters not just from University affiliates but also from West Harlem and northern Manhattan as a whole, and the athletic department has worked with local groups to bring in more fans from the wider community."
+          },
+          {
+            "type": "text",
+            "value": "“We do a lot of free tickets for the northern Manhattan area via Harlem, Inwood, and Washington Heights, and that’s for both basketball and football,” Miller said."
+          },
+          {
+            "type": "text",
+            "value": "When games occur over school breaks where many students are not on campus, the ticketing department reaches out to local community groups to offer discounted or free tickets. In recent years, Columbia Athletics has pivoted to encouraging community groups to attend games on certain dates, which Miller said has increased turnout. This effort not only helps to increase attendance and contribute to a positive atmosphere, but also provides a memorable experience for those that may not be able to attend collegiate basketball games under other circumstances."
+          },
+          {
+            "type": "text",
+            "value": "For the men’s game on Jan. 4 and the women’s game on Jan. 6, for example, Columbia Athletics brought in the Marching Cobras, a Harlem drumline program and youth group. Last November, women’s basketball also hosted its 13th Education Day game. From 2008 to 2019, Columbia partnered with the New York City Department of Education to invite thousands of elementary school students for an annual Education Day game. The 2023-24 season was the first time Education Day had been hosted since the pandemic, and the game brought in a sizable attendance of 2,357."
+          },
+          {
+            "type": "text",
+            "value": "Promotions, like theme nights or prize giveaways, are another way Columbia Athletics has sought to increase attendance from students. By showing up to home games, students can receive free merchandise or earn a chance to win prizes like a Nintendo Switch. Some of the promotional themes revolve around community groups that already exist on campus, like Greek Night, where students are encouraged to wear their sorority or fraternity shirts for the chance to win a prize."
+          },
+          {
+            "type": "text",
+            "value": "On Saturday, in between the first and second half of the team’s home game against Cornell, Columbia Athletics brought out local youth teams to scrimmage on the court. The young players raced around as their parents filmed enthusiastically on the sidelines. In the stands, dozens of students and community members were watching. Courtside, spectators gathered for intense discussions. With 1,098 people in attendance, the showing wasn’t the biggest the Lions had seen this season—still, the sense of community was palpable."
+          },
+          {
+            "type": "text",
+            "value": "Unlike last year’s matchup against Cornell, which had been close until the end of the game, the Light Blue led comfortably throughout. Still, fans didn’t falter in their excitement as the fourth quarter drew to a close. When the clock ran down to zero, the crowd roared as Columbia secured another dominant win. The Lions were victorious once again, and their pride was right behind them."
+          },
+          {
+            "type": "text",
+            "value": "<i>Sports editor Heather Chen can be contacted at </i><a href=\"mailto:heather.chen@columbiaspectator.com\"><i>heather.chen@columbiaspectator.com</i></a><i>. Follow her on X </i><a href=\"https://twitter.com/heatherweixi\"><i>@heatherweixi</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Staff writer Jillian Prunty can be contacted at </i><a href=\"mailto:jillian.prunty@columbiaspectator.com\"><i>jillian.prunty@columbiaspectator.com</i></a><i>. Follow Spectator Sports on X </i><a href=\"https://twitter.com/cuspecsports?lang=en\"><i>@CUSpecSports</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Graphics Deputy Editor Molly Durawa can be contacted at </i><a href=\"mailto:molly.durawa@columbiaspectator.com\"><i>molly.durawa@columbiaspectator.com</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<b><i>Want to keep up with breaking news? Subscribe to our </i></b><a href=\"https://columbiaspectator.us4.list-manage.com/subscribe?u=a3d2eeb1ae5560ca04f82f042&id=e51c51d62d\"><b><i>email newsletter </i></b></a><b><i>and like Spectator on </i></b><a href=\"https://www.facebook.com/columbiaspectator\"><b><i>Facebook</i></b></a><b><i>. </i></b>"
           }
         ],
-        "headline": "The U.S. and Ivy League schools were late to respond to COVID-19.",
-        "date": "October 17, 2019",
-        "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li\">Charlotte Li</a>\nEdited by <a href=\"https://www.columbiaspectator.com/contributors/Jun-Yi-Zhang\">Jun Yi Zhang</a>",
+        "headline": "Lions’ pride: How Columbia has rallied around women’s basketball through its historic success",
+        "date": "January 17, 2024",
+        "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Heather-Chen/\">Heather Chen</a>, <a href=\"https://www.columbiaspectator.com/contributors/Jillian-Prunty/\">Jillian Prunty</a>. Graphics by <a href=\"https://www.columbiaspectator.com/contributors/Molly-Durawa/\">Molly Durawa</a>",
+        "cover_asset": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KD7T2B3X45ENTCNF7IZTPDPV4E.jpg",
+        "cover_caption": "Cassie Wang / Deputy Illustrator",
         "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
-        "USE_COVER_HED": false,
+        "USE_COVER_HED": true,
         "IS_EMBED": false,
         "DOC_URL": "https://docs.google.com/document/d/1tSVFKsEtlmTi5OW0R0Lbw4Ea_CIsfDvjA-Zpwr4Tvr8/edit"
       }

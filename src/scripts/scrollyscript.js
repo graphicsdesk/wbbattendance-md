@@ -123,6 +123,7 @@ function setup() {
   initialHide('Education_2017_text');
   initialHide('Education_day');
   initialHide('Education_other');
+  initialHide('Education_2017');
   initialHide('Education_2018');
   initialHide('Education_2019');
   initialHide('Education_2023');
@@ -157,122 +158,140 @@ function setup() {
 function step_0() {
   fade_out_line();
   fade_out();
-  fade_in_line('Attendance_2017');
+  fade_in_line('Attendance_2017', 'Legend_2017');
   fade_in('Education_2017_arrow');
   fade_in('Education_2017_text');
   fade_in('Education_day');
+  fade_in('Education_2017');
 }
 function step_1() {
+  
   // NOTHING
 }
 function step_2() {
+  fade_out('Education_day');
   fade_out_id('Education_2017_text');
   fade_in('Education_other');
   fade_in('Education_2018');
   fade_in('Education_2019');
   fade_in('Education_2023');
 }
-function step_3() {}
-function step_4() {
+function step_3() {
   fade_out();
   fade_in('Cornell_2018');
+  
+
+  
+
+}
+function step_4() {
+ 
+  
 }
 function step_5() {
   // this is Cornell again
-}
-function step_6() {
   // stuff to make sure it doesnt look weird when you scroll up
   // I FORGET IF THIS GOES IN THE PLACEHOLDER OR NOT
-  fade_out_line('Attendance_2018');
-  fade_in_line('Attendance_2017');
+  fade_out_line('Attendance_2018', 'Legend_2018');
+  fade_in_line('Attendance_2017', 'Legend_2017');
   fade_out('Cornell_2018'); // this fades out everything except Cornell_2018
 }
-function step_7() {
+function step_6() {
+  
   fade_out();
   fade_out_line();
-  fade_in_line('Attendance_2018');
+  fade_in_line('Attendance_2018', 'Legend_2018');
   fade_in('Yale_2019');
 }
-function step_8() {
+function step_7() {
   // to make sure it doesnt look weird when you scroll up
-  fade_out_line('Attendance_2019');
-  fade_in_line('Attendance_2018');
+  fade_out_line('Attendance_2019', 'Legend_2019');
+  fade_in_line('Attendance_2018', 'Legend_2018');
   fade_out('Yale_2019'); // idk if this is necessary
+  
+}
+function step_8() {
+  fade_out();
+  fade_out_line();
+  fade_in_line('Attendance_2019', 'Legend_2019');
+  fade_in('Pride_2020');
+  
 }
 function step_9() {
-  fade_out();
-  fade_out_line();
-  fade_in_line('Attendance_2019');
-  fade_in('Pride_2020');
+   // Pride again
 }
 function step_10() {
-  // Pride again
+   // to make sure it doesnt look weird when you scroll up
+   fade_out_line('Attendance_2021', 'Legend_2021');
+   fade_in_line('Attendance_2019', 'Legend_2019');
+   fade_out('Pride_2020'); // idk if this is necessary
 }
 function step_11() {
-  // to make sure it doesnt look weird when you scroll up
-  fade_out_line('Attendance_2021');
-  fade_in_line('Attendance_2019');
-  fade_out('Pride_2020'); // idk if this is necessary
-}
-function step_12() {
   fade_out();
   fade_out_line();
-  fade_in_line('Attendance_2021');
+  fade_in_line('Attendance_2021', 'Legend_2021');
   fade_in('Penn_2022');
+}
+function step_12() {
+  // Penn again
 }
 function step_13() {
   // Penn again
 }
 function step_14() {
-  // Penn again
-}
-function step_15() {
   fade_out('Penn_2022'); // idk if this is necessary
 }
-function step_16() {
+function step_15() {
   fade_out();
   fade_in('Seton_2022');
 }
-function step_17() {
+function step_16() {
   // to make sure it doesnt look weird when you scroll up
-  fade_out_line('Attendance_2022');
-  fade_in_line('Attendance_2021');
+  fade_out_line('Attendance_2022', 'Legend_2022');
+  fade_in_line('Attendance_2021', 'Legend_2021');
   fade_out('Seton_2022'); // idk if this is necessary
 }
-function step_18() {
+function step_17() {
   fade_out();
   fade_out_line();
-  fade_in_line('Attendance_2021');
+  fade_in_line('Attendance_2022', 'Legend_2022');
   fade_in('Sell_2022');
 }
-function step_19() {}
-function step_20() {
+function step_18() {
+  
+}
+function step_19() {
   fade_out('Sell_2022');
 }
-function step_21() {
+function step_20() {
   fade_out();
   fade_in('Champs_2023');
 }
-function step_22() {}
-function step_23() {
-  // to make sure it doesnt look weird when you scroll up
-  fade_out_line('Attendance_2023');
-  fade_in_line('Attendance_2022');
-  fade_out('Champs_2023'); // idk if this is necessary
+function step_21() {
+ 
 }
-function step_24() {
+function step_22() {
+   // to make sure it doesnt look weird when you scroll up
+   fade_out_line('Attendance_2023', 'Legend_2023');
+   fade_in_line('Attendance_2022', 'Legend_2022');
+   fade_out('Champs_2023'); // idk if this is necessary
+}
+function step_23() {
   fade_out();
   fade_out_line();
-  fade_in_line('Attendance_2023');
+  fade_in_line('Attendance_2023', 'Legend_2023');
   fade_in('Duke_2023');
 }
-function step_25() {
+function step_24() {
   fade_out('Duke_2023');
 }
-function step_26() {
+function step_25() {
   fade_out();
   fade_in('NewEd_2023');
   fade_in('Education_2023');
+}
+function step_26() {
+  
 }
 
 var stepFunctions = [
@@ -310,8 +329,24 @@ function fade_in(name) {
   d3.selectAll('[data-name=' + name + ']').classed('fade_in', true);
 }
 
+function fade_out(name) {
+  if (arguments.length == 0) {
+    d3.selectAll('.fade_in').classed('fade_in',false);
+    d3.selectAll('.visible').classed('visible', false);
+  } else if (arguments.length == 1) {
+    d3.selectAll('[data-name=' + name + ']').classed('visible',true);
+    d3.selectAll('#' + name).classed('visible',true);
+    d3.selectAll('.fade_in').classed('fade_in',false);
+  }
+}
+
 function fade_in_id(name) {
   d3.selectAll('#' + name).classed('fade_in', true);
+}
+
+function fade_out_id(name) {
+  d3.selectAll('#' + name).classed('fade_in', false);
+  d3.selectAll('#' + name).classed('visible', false);
 }
 
 function fade_in_dn(name) {
@@ -324,13 +359,18 @@ function fade_in_line(name, name_2) {
   d3.selectAll('[data-name=' + name_2 + ']').classed('full_opacity', true);
 }
 
-function fade_out_line(name) {
+function fade_out_line(name, name_2) {
   if (arguments.length === 0) {
     d3.selectAll('.full_opacity').classed('full_opacity', false);
     d3.selectAll('.increase_width').classed('increase_width', false);
   } else if (arguments.length === 1) {
     d3.selectAll('[data-name=' + name + ']').classed('full_opacity', false);
     d3.selectAll('[data-name=' + name + ']').classed('increase_width', false);
+  }
+  else if (arguments.length === 2) {
+    d3.selectAll('[data-name=' + name + ']').classed('full_opacity', false);
+    d3.selectAll('[data-name=' + name + ']').classed('increase_width', false);
+    d3.selectAll('[data-name=' + name_2 + ']').classed('full_opacity', false);
   }
 }
 
@@ -352,7 +392,7 @@ function init() {
   scroller
     .setup({
       step: '#scrolly article .step',
-      offset: 0.9,
+      offset: 0.98,
       debug: false,
     })
     .onStepEnter(handleStepEnter)

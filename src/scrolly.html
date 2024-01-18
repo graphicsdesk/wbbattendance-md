@@ -55,6 +55,7 @@
         z-index: 0;
         top: 12.5vh;
         height: 75vh;
+        padding-bottom: 7vh;
         /* Center everything inside */
         align-items: center;
         justify-content: center;
@@ -92,13 +93,13 @@
 
 
       .step.is-active{
-        background-color: #fffcad;
+        background-color: white;
         color: #3b3b3b;
       }
 
 
       .step.is-active p{
-        background-color: #fffcad;
+        background-color: white;
         color: #3b3b3b;
       }
 
@@ -144,6 +145,11 @@
         visibility: visible !important;
         opacity: 1 !important;
         transition: opacity 1s;
+      }
+
+      .visible {
+        opacity: 1 !important;
+        visibility: visible !important
       }
 
 
@@ -201,7 +207,7 @@
             </p>
           </div>
            <!--I forget if there's supposed to be a placeholder here or not-->
-          <div class="step" data-step="2" data-offset="0.25">  <!-- I forget what the actual offset should be-->
+          <div class="step" data-step="2">  <!-- I forget what the actual offset should be-->
             <p>Every Education Day since 2017 has drawn a crowd of over 2,000 attendees, the majority of whom are elementary schoolers.
             </p>
           </div>
